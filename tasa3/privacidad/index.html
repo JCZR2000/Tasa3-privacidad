@@ -1,27 +1,29 @@
 <!doctype html>
 <html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tasa3: política de privacidad</title>
-<style>body{font-family:system-ui,sans-serif;max-width:720px;margin:2rem auto;padding:0 1rem;line-height:1.6;color:#222}h1{color:#043B78}h2{margin-top:2rem;color:#0973AC}</style></head>
+<style>body{font-family:system-ui,sans-serif;max-width:720px;margin:2rem auto;padding:0 1rem;line-height:1.6;color:#222}h1{color:#043B78}h2{margin-top:2rem;color:#0973AC}h3{margin-top:1.4rem;color:#0973AC;font-size:1.05rem}</style></head>
 <body>
 <h1>Política de privacidad de Tasa3</h1>
-<p><strong>Última actualización:</strong> 27 de octubre de 2026</p>
+<p><strong>Última actualización:</strong> 29 de octubre de 2026</p>
 
 <h2>Quién es el responsable</h2>
 <p>Tasa3 (aplicación para Android y Wear OS) es publicada por <strong>DigitalWorksVE</strong>. Contacto: <a href="mailto:dworksve@gmail.com">dworksve@gmail.com</a>.</p>
 
 <h2>Datos personales</h2>
-<p>Tasa3 <strong>no recopila, no almacena en servidores y no comparte datos personales</strong>. No tiene cuentas de usuario, no usa analíticas, no muestra anuncios, no usa tu ubicación y no accede a tus contactos, fotos ni identificadores del dispositivo.</p>
+<p>Tasa3 <strong>no tiene cuentas de usuario, no usa servidores propios, no usa analíticas propias, no usa tu ubicación y no accede a tus contactos ni a tus fotos</strong>. Nosotros (DigitalWorksVE) no recopilamos ni almacenamos tus datos personales. Los únicos datos que pueden recopilarse son los que usan los anuncios de Google AdMob en la aplicación del teléfono, descritos en la sección «Publicidad y compras». La aplicación para Wear OS no muestra anuncios ni compras.</p>
 
 <h2>Qué hace la aplicación con internet</h2>
-<p>Para mostrar las tasas, la aplicación descarga archivos públicos de datos (tasas BCV, USDT, historial) desde <code>raw.githubusercontent.com</code> (GitHub) mediante HTTPS. No se envía ningún dato tuyo en esas peticiones. Como en cualquier visita a un sitio web, GitHub puede ver la dirección IP desde la que se conecta el dispositivo; su tratamiento se rige por la <a href="https://docs.github.com/es/site-policy/privacy-policies/github-general-privacy-statement">política de privacidad de GitHub</a>.</p>
+<p>Para mostrar las tasas, la aplicación descarga archivos públicos de datos (tasas BCV, USDT, historial) desde <code>raw.githubusercontent.com</code> (GitHub) mediante HTTPS. No se envía ningún dato tuyo en esas peticiones. Como en cualquier visita a un sitio web, GitHub puede ver la dirección IP desde la que se conecta el dispositivo; su tratamiento se rige por la <a href="https://docs.github.com/es/site-policy/privacy-policies/github-general-privacy-statement">política de privacidad de GitHub</a>. En el teléfono, la aplicación también se conecta a los servicios de Google para mostrar anuncios, pedir tu consentimiento y gestionar las compras (ver «Publicidad y compras»).</p>
 
 <h2>Datos guardados en tu dispositivo</h2>
-<p>La aplicación guarda en el propio dispositivo una copia de las últimas tasas y su historial (para funcionar sin conexión) y tus preferencias (tema, color, formato de hora, notificaciones, teclado). Estos datos no salen del dispositivo, salvo la copia de seguridad automática de Android, que gestiona el sistema operativo según tu configuración. Al desinstalar la aplicación se eliminan.</p>
+<p>La aplicación guarda en el propio dispositivo una copia de las últimas tasas y su historial (para funcionar sin conexión) y tus preferencias (tema, color, formato de hora, notificaciones, teclado), la hora hasta la que no verás anuncios y cuántos anuncios bonificados llevas vistos, y si tienes una compra activa para quitar anuncios. Estos datos no salen del dispositivo, salvo la copia de seguridad automática de Android, que gestiona el sistema operativo según tu configuración. Al desinstalar la aplicación se eliminan.</p>
 
 <h2>Permisos</h2>
 <ul>
 <li><strong>Internet y estado de la red:</strong> descargar las tasas y saber si hay conexión.</li>
 <li><strong>Notificaciones</strong> (teléfono): avisar de la sincronización de tasas, si lo activas.</li>
 <li><strong>Vibración:</strong> respuesta táctil al usar el teclado.</li>
+<li><strong>ID de publicidad</strong> (teléfono): lo usa el SDK de anuncios de Google AdMob para mostrar anuncios (ver «Publicidad y compras»).</li>
+<li><strong>Facturación de Google Play</strong> (teléfono): realizar y restaurar las compras para quitar anuncios.</li>
 <li><strong>Mantener activo</strong> (reloj): terminar la actualización de tasas en segundo plano.</li>
 </ul>
 
@@ -29,10 +31,27 @@
 <p>Las imágenes de tickets y el texto de tasas solo se comparten cuando tú lo pides, a través de la función de compartir de Android y con la aplicación que elijas.</p>
 
 <h2>Publicidad y compras</h2>
-<p>Actualmente Tasa3 no contiene anuncios ni compras dentro de la aplicación. Si esto cambia, esta política se actualizará antes de que el cambio se publique.</p>
+<p>La aplicación del teléfono muestra anuncios y ofrece compras dentro de la aplicación para quitarlos. La aplicación para Wear OS no tiene ni anuncios ni compras.</p>
+
+<h3>Anuncios (Google AdMob)</h3>
+<p>Tasa3 usa <strong>Google AdMob</strong>, un servicio de Google LLC, para mostrar un banner en las pantallas principales y anuncios bonificados (con recompensa) que tú eliges ver. Para mostrar y medir los anuncios, evitar el fraude y limitar la frecuencia, Google puede recopilar y usar, desde tu dispositivo:</p>
+<ul>
+<li>el <strong>ID de publicidad</strong> de Android;</li>
+<li>la <strong>dirección IP</strong> y, a partir de ella, una <strong>ubicación aproximada</strong>;</li>
+<li>información del dispositivo y de la aplicación (modelo, versión del sistema, idioma);</li>
+<li>datos de uso e interacción con los anuncios, y datos de diagnóstico y rendimiento.</li>
+</ul>
+<p>Estos datos los recopila y trata Google bajo sus propias políticas; Tasa3 no los recibe ni los ve. Más información: <a href="https://policies.google.com/technologies/partner-sites">cómo usa Google los datos de sitios y aplicaciones que usan sus servicios</a> y <a href="https://policies.google.com/privacy">política de privacidad de Google</a>.</p>
+<p><strong>Tu elección.</strong> En las regiones donde la ley lo exige (por ejemplo, el Espacio Económico Europeo y el Reino Unido), la aplicación te muestra un formulario de consentimiento de Google al abrirla. Puedes cambiar tu elección en <em>Ajustes → Quitar anuncios → Privacidad de anuncios</em> (aparece cuando es necesario). También puedes limitar la personalización o eliminar el ID de publicidad en los ajustes de tu dispositivo (<em>Ajustes de Android → Google → Anuncios</em>).</p>
+
+<h3>Anuncios bonificados</h3>
+<p>Ver anuncios bonificados es siempre voluntario. Al ver 2, no verás anuncios durante 48 horas. La aplicación guarda en tu dispositivo solo la hora en que termina ese periodo y el número de anuncios vistos.</p>
+
+<h3>Compras dentro de la aplicación</h3>
+<p>Puedes quitar los anuncios con una suscripción mensual o anual, o con un pago único («para siempre»). Las compras las procesa <strong>Google Play</strong>: Tasa3 <strong>no recibe ni almacena</strong> tus datos de pago (tarjeta, nombre ni dirección de facturación). La aplicación solo consulta a Google Play si tienes una compra activa y guarda ese dato en tu dispositivo para seguir sin anuncios sin conexión. No usamos servidores propios para verificar las compras. Puedes cancelar una suscripción o pedir un reembolso desde Google Play (<em>Pagos y suscripciones</em>) según sus condiciones. «Restaurar compras» vuelve a consultar a Google Play.</p>
 
 <h2>Menores</h2>
-<p>Tasa3 no está dirigida a menores de 13 años y no recopila datos de ninguna persona, incluidos los menores.</p>
+<p>Tasa3 no está dirigida a menores de 13 años y nosotros no recopilamos datos de ninguna persona, incluidos los menores. Si eres menor, usa la aplicación con la supervisión de un adulto, ya que los anuncios de Google AdMob siguen las políticas de Google descritas arriba.</p>
 
 <h2>Información financiera</h2>
 <p>Tasa3 es informativa. No está afiliada al Banco Central de Venezuela ni a ningún exchange, y no ofrece servicios financieros ni asesoría de inversión.</p>
